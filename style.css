@@ -201,11 +201,9 @@ background: #FF5400;
     gap: 5px;
 }
 .img-container img{
-    width: 335px;
-    height: 176px;
+    width: 90%;
+    height: 236px;
     border-radius: 16px;
     margin-left: 5%;
-    
-   
 }
 }
