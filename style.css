@@ -106,11 +106,24 @@ text-align: center;
     border-radius: 8px;
 background: #FF5400;
 }
+/* main section */
 
+.img-text{
+    margin-top: 8%;
+    text-align: center;
+}
+.img-text h1{
+    font-size: 2.5rem;
+}
+.img-container{
+    margin: 55px 135px 50px 350px;
+    display: grid;
+    gap: 15px;
+}
 
-
-
-
+.img-container img{
+   padding: 5px;
+}
 
 
 @media screen and (max-width:600px){
@@ -161,7 +174,6 @@ background: #FF5400;
 .header-sec-two{
     flex-direction: column;
     margin: 0;
-    gap: ;
 }
 
 
@@ -179,30 +191,21 @@ background: #FF5400;
     border-radius: 40px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.img-text h1{
+    font-size: 1.5rem;
 }
 
-
-
-
-
-
-
-
-
-
+.img-container{
+    margin: 0;
+    grid-template-columns: 1fr;
+    gap: 5px;
+}
+.img-container img{
+    width: 335px;
+    height: 176px;
+    border-radius: 16px;
+    margin-left: 5%;
+    
+   
+}
+}
