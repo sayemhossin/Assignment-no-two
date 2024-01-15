@@ -124,6 +124,53 @@ background: #FF5400;
 .img-container img{
    padding: 5px;
 }
+.choose-text{
+    text-align: center;
+}
+
+.choose-text h1{
+    font-size: 2.5rem;
+}
+
+
+.card{
+    display: flex;
+    margin: 55px 135px 50px 350px;
+    gap: 20px;
+
+}
+.cardone{
+    width: 573px;
+height: 284px;
+border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+padding: 40px;
+}
+.cardtwo{
+    width: 573px;
+height: 284px;
+border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+padding: 40px;
+}
+
+.cardthree{
+    width: 573px;
+height: 284px;
+    border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+margin-left: 35%;
+padding: 40px;
+}
+
+
+
+
+
+
 
 
 @media screen and (max-width:600px){
@@ -206,4 +253,29 @@ background: #FF5400;
     border-radius: 16px;
     margin-left: 5%;
 }
+.card{
+    flex-direction: column;
+    margin: 0;
+}
+
+.cardone{
+    width: 80%;
+    height: 50%;
+}
+.cardtwo{
+    width: 80%;
+    height: 50%;
+}
+.cardthree{
+    margin: 0;
+    width: 80%;
+    height: 50%;
+}
+
+
+
+
+
+
+
 }
