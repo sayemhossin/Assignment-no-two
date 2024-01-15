@@ -42,6 +42,7 @@ font-family: 'Work Sans', sans-serif;
  .first-header{
     background-image: url('Images/Group\ 13\ \(1\)\ \(1\).png');
     width: 1170px;
+    background-repeat: no-repeat;
 height: 500px;
 border-radius: 16px;
 margin: 55px 135px 50px 350px;
@@ -79,14 +80,32 @@ text-align: center;
     border: 0;
     color: #FFF;
 }
-
+/* header sec two */
  
+.header-sec-two{
+    margin: 55px 135px 50px 350px;
+   display: flex;
+   gap: 60px;
+   
+}
 
+.sec-two-text{
+    width: 40%;
+    color: #131318;
+}
+.sec-two-text p{
+    margin-top: 40px;
+}
+.sec-two-text ul li{
+    margin-top: 30px;
+}
 
-
-
-
-
+.sec-two-text button{
+    padding: 10px 30px;
+    color: #FFF;
+    border-radius: 8px;
+background: #FF5400;
+}
 
 
 
@@ -138,10 +157,27 @@ text-align: center;
 
 .select-item select, .select-item button{
     width: 100%;
-    
-    
+}
+.header-sec-two{
+    flex-direction: column;
+    margin: 0;
+    gap: ;
 }
 
+
+.sec-two-text{
+    width: 100%;
+}
+.sec-two-text p{
+    margin-top: 20px;
+}
+.sec-two-text ul li{
+    margin-top: 10px;
+}
+.sec-two-img{
+    width: 100%;
+    border-radius: 40px;
+}
 
 
 
