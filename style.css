@@ -634,14 +634,18 @@ hr{
     width: 100%;
     height: 100%;
 }
+.position-item h4{
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
 
 
 .position-item{
     width: 190px;
     height: 80px;
     overflow: hidden;
-    top: 50%;
-     left: 51%;
+    top: 40%;
+     left: 40%;
 }
 footer{
     margin-top: 20px;
@@ -649,7 +653,7 @@ footer{
 }
 .footer-title{
     margin: 0;
-    margin-left: 20%;
+    margin-left: 10%;
     
 }
 
@@ -659,7 +663,7 @@ footer{
    }
    
    .footer-text i{
-       font-size: 40px;
+       font-size: 30px;
        margin-left: 10px;
    }
    
